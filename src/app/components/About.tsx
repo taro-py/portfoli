@@ -33,10 +33,10 @@ export function About() {
             transition={{ duration: 0.6 }}
           >
             <p className="text-white/60 leading-relaxed mb-6">
-              A lo largo de mi carrera he consolidado una base técnica robusta en el desarrollo de sistemas, arquitectura de software e ingeniería de datos. Mi área de especialización abarca el desarrollo Backend/Frontend, la Inteligencia Artificial (Big O, algoritmia y agentes), el diseño de Bases de Datos y Gestión de redes y Sistemas Operativos.
+              A lo largo de mi carrera, he consolidado una base técnica robusta en el desarrollo de sistemas, arquitectura de software e ingeniería de datos. Mi área de especialización abarca el desarrollo Backend/Frontend, la Inteligencia Artificial (Big O, algoritmia y agentes), el diseño de Bases de Datos, Gestión de redes y Sistemas Operativos.
             </p>
             <p className="text-white/60 leading-relaxed mb-8">
-              Como profesional bilingüe con experiencia internacional, aporto una mentalidad proactiva y orientada a la resolución de problemas complejos. Combino mi rigor académico en estructuras de datos, patrones de diseño y experiencia en lenguajes fuertemente tipados con un fuerte aprendizaje autodidacta, ofreciendo gran adaptabilidad.
+              Como profesional bilingüe con experiencia internacional, aporto una mentalidad proactiva y orientada a la resolución de problemas complejos. Combino mi rigor académico en estructuras de datos, patrones de diseño, experiencia en lenguajes fuertemente tipados y capacidad de aprendizaje autodidacta, ofreciendo gran adaptabilidad.
             </p>
 
             <div className="flex flex-col gap-3">
