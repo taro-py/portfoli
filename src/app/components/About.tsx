@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { GraduationCap, MapPin, Globe } from "lucide-react";
 
 const stats = [
-  { value: "4", label: "Idiomas (ES, EN, NO, JA)" },
+  { value: "3", label: "Idiomas (ES, EN, Aprendiendo NO)" },
   { value: "10+", label: "Proyectos Universitarios" },
   { value: "15+", label: "Tecnologías Dominadas" },
   { value: "APTIS", label: "Certificación ESOL" },
