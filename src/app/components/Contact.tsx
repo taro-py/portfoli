@@ -6,7 +6,7 @@ import DOMPurify from "dompurify";
 const socials = [
   { icon: Github, label: "GitHub", handle: "@taro-py", href: "https://github.com/taro-py" },
   { icon: Linkedin, label: "LinkedIn", handle: "Neizan Roggie Martínez", href: "https://www.linkedin.com/in/neizan-roggie-martinez-60962b2a7" },
-  { icon: Mail, label: "Email", handle: "neizanroggie7@gmail.com", href: "mailto:neizanroggie7@gmail.com" },
+  { icon: Mail, label: "Email", handle: "Házmelo saber", href: "mailto:neizanroggie7@gmail.com" },
 ];
 
 export function Contact() {

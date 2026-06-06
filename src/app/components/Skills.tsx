@@ -41,11 +41,15 @@ const badges = [
 ];
 
 function SkillBar({ name, level, color }: { name: string; level: number; color: string }) {
+  let label = "Uso Moderado";
+  if (level >= 90) label = "Uso Frecuente";
+  else if (level >= 80) label = "Conocimientos Sólidos";
+
   return (
     <div className="mb-4">
       <div className="flex justify-between text-sm mb-1.5">
         <span className="text-white/70">{name}</span>
-        <span className="text-white/30">{level}%</span>
+        <span className="text-white/40 text-[10px] uppercase tracking-wider">{label}</span>
       </div>
       <div className="h-1.5 bg-white/8 rounded-full overflow-hidden">
         <motion.div
@@ -76,6 +80,9 @@ export function Skills() {
           <h2 className="text-white" style={{ fontSize: "clamp(1.8rem, 4vw, 2.5rem)", fontWeight: 700 }}>
             Habilidades & Tecnologías
           </h2>
+          <p className="text-white/40 mt-3 max-w-2xl text-sm leading-relaxed">
+            El nivel de las barras refleja el foco de estudio y la frecuencia de uso en proyectos académicos y personales.
+          </p>
         </motion.div>
 
         <div className="grid md:grid-cols-3 gap-6 mb-14">
