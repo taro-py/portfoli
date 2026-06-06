@@ -56,25 +56,21 @@ export function Skills() {
                 <h3 className="text-white text-sm" style={{ fontWeight: 600 }}>{cat.title}</h3>
               </div>
               <div className="flex flex-wrap gap-2.5">
-                {cat.skills.map((s, i) => (
+                {cat.skills.map((skill, si) => (
                   <motion.span
-                    key={s}
-                    initial={{ opacity: 0, scale: 0.8 }}
+                    key={skill}
+                    initial={{ opacity: 0, scale: 0.85 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
-                    transition={{ duration: 0.3, delay: i * 0.05 }}
-                    className="px-3 py-1.5 rounded-full border border-white/10 bg-white/5 text-white/70 text-xs transition-colors cursor-default"
-                    style={{ borderColor: `color-mix(in srgb, ${cat.color} 30%, transparent)` }}
-                    onMouseEnter={(e) => {
-                      (e.target as HTMLElement).style.borderColor = cat.color;
-                      (e.target as HTMLElement).style.color = '#ffffff';
-                    }}
-                    onMouseLeave={(e) => {
-                      (e.target as HTMLElement).style.borderColor = `color-mix(in srgb, ${cat.color} 30%, transparent)`;
-                      (e.target as HTMLElement).style.color = 'rgba(255,255,255,0.7)';
+                    transition={{ duration: 0.25, delay: ci * 0.1 + si * 0.03 }}
+                    className="px-3 py-1 rounded-full text-xs border transition-colors cursor-default"
+                    style={{
+                      borderColor: `${cat.color}30`,
+                      backgroundColor: `${cat.color}10`,
+                      color: `${cat.color}cc`,
                     }}
                   >
-                    {s}
+                    {skill}
                   </motion.span>
                 ))}
               </div>
