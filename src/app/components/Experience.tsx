@@ -85,7 +85,7 @@ export function Experience() {
                 transition={{ duration: 0.4 }}
                 className="rounded-xl border border-white/8 bg-white/3 p-4"
               >
-                <p className="text-white text-sm mb-0.5" style={{ fontWeight: 500 }}>APTIS ESOL</p>
+                <p className="text-white text-sm mb-0.5" style={{ fontWeight: 500 }}>APTIS ESOL (C1)</p>
                 <p className="text-white/40 text-xs">British Council</p>
               </motion.div>
             </div>
