@@ -5,7 +5,7 @@ const stats = [
   { value: "3", label: "Idiomas (ES, EN, Aprendiendo NO)" },
   { value: "10+", label: "Proyectos Universitarios" },
   { value: "15+", label: "Tecnologías Dominadas" },
-  { value: "APTIS", label: "Certificación ESOL" },
+  { value: "C1", label: "Certificado APTIS" },
 ];
 
 export function About() {
